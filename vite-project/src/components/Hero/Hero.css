@@ -1,0 +1,51 @@
+
+ .showcase-area{
+    height:100vh;
+    background: rgb(202, 91, 249);
+    color:white;
+    background-size:cover;
+    background-position: center;;
+    background-repeat: no-repeat;
+    background-color: hsl(200, 88%, 10%);
+
+ }
+ .showcase-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+    font-size: 1.6rem;
+    font-weight:500;
+    text-transform: uppercase;
+    color: hsl(200, 100%, 50%);
+
+ }
+.main-title{
+    text-transform: uppercase;
+    font-weight:700;
+    font-size:2rem;
+    font-family:'Times New Roman', Times, serif;
+    color:White;
+}
+.btn{
+    display:inline-block;
+padding:0.3em 1em;
+text-decoration:none;
+border-radius:30px;
+cursor:pointer;
+outline:none;
+margin-top:1.7em;
+text-transform:uppercase;
+font-weight:500;
+}
+.btn-primary{
+    color:#fff;
+    background:#16a083 ;
+    transition:0.3s ease-in;
+}
+.btn-primary:hover{
+    background:#e4f184;
+    transition: 0.3s ease-in;
+     color:black;
+}
